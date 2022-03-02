@@ -29,7 +29,7 @@ interface Post {
         text: string;
       }[];
     }[];
-  };
+  }
 }
 
 interface PostProps {
@@ -122,7 +122,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths,
     fallback: true
   }
-};
+}
 
 export const getStaticProps: GetStaticProps = async context => {
   const prismic = getPrismicClient();
@@ -153,4 +153,4 @@ export const getStaticProps: GetStaticProps = async context => {
       post
     }
   }
-};
+}

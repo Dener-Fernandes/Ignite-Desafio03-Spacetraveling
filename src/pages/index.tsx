@@ -21,7 +21,7 @@ interface Post {
     title: string;
     subtitle: string;
     author: string;
-  };
+  }
 }
 
 interface PostPagination {
