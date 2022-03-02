@@ -153,4 +153,4 @@ export const getStaticProps: GetStaticProps  = async () => {
       postsPagination
     }
   }
-};
+}
