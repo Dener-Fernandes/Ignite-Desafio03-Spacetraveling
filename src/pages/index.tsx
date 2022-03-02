@@ -60,8 +60,6 @@ export default function Home({ postsPagination }:HomeProps) {
     setNextPage(postsResults.next_page);
     setCurrentPage(postsResults.page);
 
-    console.log(postsResults);
-
     const newPosts = postsResults.results.map(post => {
       return {
         uid: post.uid,
